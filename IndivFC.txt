@@ -1,0 +1,15 @@
+FileStructure
+IdvFC/Data/sub_xxx/surf/[(change name to below) lh.subjxxx_bldxxx_rest_skip4_stc_mc_residc_interp_FDRMS0.2_DVARS50_bp_0.009_0.08_fsaverage6_sm6_fsaverage4.nii.gz, rh.subjxxx_bldxxx_rest_skip4_stc_mc_residc_interp_FDRMS0.2_DVARS50_bp_0.009_0.08_fsaverage6_sm6_fsaverage4.nii.gz]
+
+IdvFC/OutFile/IndiPar/sub_xxx/Iter_10/[ParcellationResults sub-files]
+IdvFC/SubListAll.txt(e.g.: sub_001 (num_subjects*1))
+
+
+MATLAB
+1. freesurfer in matlab
+bash_path=getenv ('PATH')
+setenv( 'PATH',[bash_path,':/Applications/freesurfer/7.1.1',':/Applications/freesurfer/7.1.1/bin']);
+setenv('FREESURFER_HOME', '/Applications/freesurfer/7.1.1'); 
+setenv('SUBJECTS_DIR', '/Applications/freesurfer/7.1.1/subjects'); 
+
+2. Creat FC Matrix
